@@ -1,0 +1,22 @@
+{
+  "name": "vue-jm-editor",
+  "version": "0.0.1",
+  "description": "基于vue的专注移动端的富文本编辑器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boosver/vue-jm-editor.git"
+  },
+  "keywords": [
+    "577wpfaini"
+  ],
+  "author": "bossver",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/boosver/vue-jm-editor/issues"
+  },
+  "homepage": "https://github.com/boosver/vue-jm-editor#readme"
+}
