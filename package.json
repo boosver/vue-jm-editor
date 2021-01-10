@@ -4,20 +4,39 @@
   "description": "基于vue的专注移动端的富文本编辑器",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boosver/vue-jm-editor.git"
   },
   "keywords": [
-    "577wpfaini"
+    "jmeditor"
   ],
   "author": "bossver",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/boosver/vue-jm-editor/issues"
   },
-  "homepage": "https://github.com/boosver/vue-jm-editor#readme"
-  
+  "homepage": "https://github.com/boosver/vue-jm-editor#readme",
+  "registory": "0.0.1",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.0.0",
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.1.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "jquery": "^3.5.1",
+    "style-loader": "^2.0.0"
+  }
 }

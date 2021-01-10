@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="JmEditor.main.js"></script>
+</head>
+<div id="app">
+  
+    <jm-edtior :jm-content='contents' @jm-mounted="jmMounted()" >
+
+
+    </jm-edtior>
+
+
+</div>
+
+<body>
+
+</body>
+<script>
+
+    let vue = new Vue({
+        el: '#app',
+        data: {
+            contents: 'dqwqwfqwfqw'
+        },
+        created() {
+        
+            this.contents = '<h1 style="text-align: center;" class="sdas sdsada asdas">点击开始编辑文章</h1><p>随着网站的不断发展，网站本身的架构会不断变化，页面和内容会在重设计过程中不断调整，被重新定向。网站本身的优化，往往不可避免地让一部分内容不再那么容易被用户找到，当用户打开的时候，就是<span class="wp_keywordlink_affiliate"><a href="http://www.uisdc.com/tag/404%e9%a1%b5%e9%9d%a2" title="View all posts in 404页面" target="_blank">404页面</a></span>了。</p>'
+        },
+        mounted() {
+            console.log(this.$refs);
+       
+        },
+        methods: {
+            jmMounted(res) {
+                console.log('哈哈哈')
+            }
+        },
+        components: {
+
+        },
+
+    })
+
+</script>
+
+</html>
